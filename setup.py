@@ -33,7 +33,7 @@ class AntlrGeneratorCommand(distutils.cmd.Command):
 setup(name='chord_labels',
       version='0.1',
       description='MIREX-style chord label parser',
-      url='https://github.com/bzamecnik/chord_labels',
+      url='https://github.com/bzamecnik/chord-labels',
       author='Bohumir Zamecnik',
       author_email='bohumir.zamecnik@gmail.com',
       license='MIT',
