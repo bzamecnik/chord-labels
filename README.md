@@ -31,7 +31,7 @@ assert parse_chord("C:maj7").tones == [0, 4, 7, 11]
 You can parse one chord at time. The result of `parse_chord()` is an instance of the `ChordLabel` class. It provides a few properties:
 
 - `tones` - set of absolute pitch classes (C is 0)
-- `binary_tones` - binary list of absolute pitch classes
+- `tones_binary` - binary list of absolute pitch classes
 - `root` - absolute pitch class of the root tone
 - `bass` - absolute pitch class of the bass tone (behind slash)
 
