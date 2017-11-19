@@ -81,6 +81,7 @@ PITCH_CLASS_FROM_MODIFIER = {
     "b": OCTAVE_SIZE - 1,
     "#": 1,
 }
+PITCH_CLASS_NAMES = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
 
 class ChordLabel:
     # tones: set - absolute pitch classes
